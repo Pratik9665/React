@@ -5,6 +5,8 @@ import LoginPage from './pages/LoginPage'
 import Aluminisearch from './pages/Aluminisearch'
 import Contact from './pages/Contact'
 import Connect from './pages/Connect'
+import Gallary from './pages/Gallary'
+import Brownbackground from './components/Brownbackground'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
         <Route path='/search' element={<Aluminisearch />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/connect' element={<Connect />} />
+        <Route path='/gallery' element={<Gallary />} />
       </Routes>
+          <Brownbackground />
     </div>
   )
 }
