@@ -8,6 +8,7 @@ import Connect from './pages/Connect'
 import Gallary from './pages/Gallary'
 import Brownbackground from './components/Brownbackground'
 
+
 const App = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const App = () => {
         <Route path='/connect' element={<Connect />} />
         <Route path='/gallery' element={<Gallary />} />
       </Routes>
-          <Brownbackground />
+      <Brownbackground  />
     </div>
   )
 }

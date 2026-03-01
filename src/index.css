@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@keyframes scrollBg {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.moving-bg {
+  animation: scrollBg 20s linear infinite;
+}
