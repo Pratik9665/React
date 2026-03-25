@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Connect from './pages/Connect'
 import Gallary from './pages/Gallary'
 import Brownbackground from './components/Brownbackground'
+import CardTab from './components/Photo Gallery/CardTab'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/gallery' element={<Gallary />} />
       </Routes>
       <Brownbackground  />
+      <CardTab/>
     </div>
   )
 }
