@@ -5,7 +5,7 @@ const Card = ({ url, location, path, photoCount = 0 }) => {
   return (
     <Link to={path} className="block"> 
       <div className='shadow-lg w-80 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition duration-300 bg-white'>
-        
+       
         <img 
           src={url} 
           alt={`Photos of ${location}`} 

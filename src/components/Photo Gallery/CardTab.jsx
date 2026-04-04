@@ -28,6 +28,8 @@ const CardTab = () => {
       path: "/gallery/pune",
       photoCount: 12
     }
+   
+
   ]
 
   

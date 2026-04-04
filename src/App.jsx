@@ -8,6 +8,7 @@ import Connect from './pages/Connect'
 import Gallary from './pages/Gallary'
 import Brownbackground from './components/Brownbackground'
 import CardTab from './components/Photo Gallery/CardTab'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       </Routes>
       <Brownbackground  />
       <CardTab/>
+      <Footer/>
     </div>
   )
 }
